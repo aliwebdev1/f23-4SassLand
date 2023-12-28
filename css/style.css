@@ -5,6 +5,10 @@ body {
     color: #000000bd;
 }
 
+img {
+    max-width: 100%;
+}
+
 header {
     background-color: #7F56F5;
     display: flex;
@@ -12,12 +16,6 @@ header {
     align-items: center;
     padding: 20px;
 }
-
-.logo {}
-
-.logo img {}
-
-nav {}
 
 nav ul {
     margin: 0;
@@ -82,3 +80,35 @@ section {}
     font-size: 17px;
     margin-top: 20px;
 }
+
+/* footer start */
+footer {
+    background-color: #7f56f512;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.footer-item {
+    width: 20%;
+}
+
+.footer-item h3 {}
+
+.footer-item li {
+    list-style: none;
+}
+
+.footer-item li a {
+    text-decoration: none;
+    color: #00000094;
+    padding: 10px 0;
+    display: block;
+    cursor: pointer;
+}
+
+
+

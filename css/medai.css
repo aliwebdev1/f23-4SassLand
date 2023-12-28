@@ -1,0 +1,177 @@
+/* mobile device */
+@media only screen and (max-width:600px) {
+
+    header {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+
+    nav ul li a {
+        font-weight: 400;
+        margin: 30px 0 0 10px;
+    }
+
+
+    /* banner section start */
+    .banner {
+        padding: 50px 0;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner p {
+        font-size: 17px;
+    }
+
+    /* service section start */
+    .services {
+        display: block;
+        margin: 20px;
+    }
+
+    .mobile-flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .service-item {
+        width: 100%;
+    }
+
+    .service-item img {
+        max-width: 100%;
+    }
+
+    .service-item h2 {
+        font-size: 25px;
+    }
+
+    .service-item button {
+        padding: 10px 20px;
+    }
+
+
+    /* footer start */
+    footer {}
+
+    .footer-main {
+        display: block;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .footer-item {
+        width: 100%;
+    }
+
+
+}
+
+/* landscape mobile and tablet */
+@media only screen and (min-width:601px) and (max-width:768px) {
+    header {
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    nav ul li a {
+        margin: 30px 0 0 10px;
+    }
+
+
+    /* banner section start */
+    .banner {
+        padding: 60px 0;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .banner p {
+        font-size: 17px;
+    }
+
+    /* service section start */
+    .services {
+        display: block;
+        margin: 20px;
+    }
+
+    .mobile-flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .service-item {
+        width: 100%;
+    }
+
+    .service-item img {
+        max-width: 100%;
+    }
+
+    .service-item h2 {
+        font-size: 30px;
+    }
+
+    .service-item button {
+        padding: 10px 20px;
+    }
+
+
+    /* footer start */
+    .footer-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        padding: 40px;
+    }
+
+    .footer-item {
+        width: 100%;
+    }
+}
+
+/* table, tablet landscape,mobile landscape */
+@media only screen and (min-width:769px) and (max-width:992px) {
+
+
+
+
+
+
+    /* banner section start */
+    .banner {
+        padding: 70px 0;
+    }
+
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .footer-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        padding: 40px;
+    }
+
+    .footer-item {
+        width: 100%;
+    }
+
+}
+
+/* square desktop and small laptop */
+@media only screen and (min-width:993px) and (max-width:1024px) {}
